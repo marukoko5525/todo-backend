@@ -1,0 +1,184 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:todo >--------------------------
+[INFO] Building todo 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.16:run (default-cli) > test-compile @ todo >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ todo ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ todo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug parameters release 21] to target\classes
+[INFO] クラス・パスに1つ以上のプロセッサが見つかったため、注釈処理が有効化されて
+  います。少なくとも1つのプロセッサが名前(-processor)で指定されるか、検索パス
+  (--processor-path、--processor-module-path)が指定されるか、注釈処理が明示的に
+  有効化(-proc:only、-proc:full)されている場合を除き、将来のリリースのjavacでは
+  注釈処理が無効化される可能性があります。
+  -Xlint:オプションを使用すると、このメッセージを非表示にできます。
+  -proc:noneを使用すると、注釈処理を無効化できます。
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[8,29] パッケージorg.junit.jupiter.apiは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[9,29] パッケージorg.junit.jupiter.apiは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[11,63] パッケージorg.springframework.boot.test.autoconfigure.web.servletは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[12,62] パッケージorg.springframework.test.context.bean.override.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[14,44] パッケージorg.springframework.test.web.servletは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[19,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[19,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[20,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[20,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[21,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[21,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[22,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[22,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[23,59] パッケージorg.springframework.test.web.servlet.requestは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[24,58] パッケージorg.springframework.test.web.servlet.resultは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[26,2] シンボルを見つけられません
+  シンボル: クラス WebMvcTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[30,13] シンボルを見つけられません
+  シンボル:   クラス MockMvc
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[35,6] シンボルを見つけられません
+  シンボル:   クラス MockitoBean
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[62,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[63,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[79,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[80,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[90,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[91,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[101,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[102,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[117,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[118,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[131,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[132,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[149,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[150,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[156,6] シンボルを見つけられません
+  シンボル:   クラス Test
+  場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[157,6] シンボルを見つけられません
+  シンボル:   クラス DisplayName
+  場所: クラス com.example.todo.TaskControllerTest
+[INFO] 34 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.703 s
+[INFO] Finished at: 2026-06-25T22:05:04+09:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project todo: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[8,29] パッケージorg.junit.jupiter.apiは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[9,29] パッケージorg.junit.jupiter.apiは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[11,63] パッケージorg.springframework.boot.test.autoconfigure.web.servletは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[12,62] パッケージorg.springframework.test.context.bean.override.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[14,44] パッケージorg.springframework.test.web.servletは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[19,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[19,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[20,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[20,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[21,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[21,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[22,26] パッケージorg.mockitoは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[22,1] static importはクラスとインタフェースからのみとなります
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[23,59] パッケージorg.springframework.test.web.servlet.requestは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[24,58] パッケージorg.springframework.test.web.servlet.resultは存在しません
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[26,2] シンボルを見つけられません
+[ERROR]   シンボル: クラス WebMvcTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[30,13] シンボルを見つけられません
+[ERROR]   シンボル:   クラス MockMvc
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[35,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス MockitoBean
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[62,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[63,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[79,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[80,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[90,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[91,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[101,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[102,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[117,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[118,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[131,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[132,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[149,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[150,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[156,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス Test
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] /C:/Users/PC_User/todo-backend/src/main/java/com/example/todo/TaskControllerTest.java:[157,6] シンボルを見つけられません
+[ERROR]   シンボル:   クラス DisplayName
+[ERROR]   場所: クラス com.example.todo.TaskControllerTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

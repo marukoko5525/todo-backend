@@ -22,10 +22,14 @@ public class TaskController {
 
     private final TaskService taskService;
 
-    /** GET /api/tasks?completed=true|false  — 一覧取得 */
+    /** GET /api/tasks?completed=true|false&keyword=xxx  — 一覧取得・キーワード検索 */
     @GetMapping
     public ResponseEntity<List<TaskResponse>> getAll(
-            @RequestParam(required = false) Boolean completed) {
+            @RequestParam(required = false) Boolean completed,
+            @RequestParam(required = false) String keyword) {
+        if (keyword != null && !keyword.isBlank()) {
+            return ResponseEntity.ok(taskService.search(keyword, completed));
+        }
         return ResponseEntity.ok(taskService.findAll(completed));
     }
 

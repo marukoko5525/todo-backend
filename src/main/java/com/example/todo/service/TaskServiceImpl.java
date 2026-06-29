@@ -27,6 +27,14 @@ public class TaskServiceImpl implements TaskService {
     }
 
     @Override
+    public List<TaskResponse> search(String keyword, Boolean completed) {
+        List<Task> tasks = (completed == null)
+                ? taskRepository.findByTitleContainingIgnoreCaseOrDescriptionContainingIgnoreCaseOrderByCreatedAtDesc(keyword, keyword)
+                : taskRepository.searchByKeywordAndCompleted(keyword, completed);
+        return tasks.stream().map(TaskResponse::from).toList();
+    }
+
+    @Override
     public TaskResponse findById(Long id) {
         Task task = taskRepository.findById(id)
                 .orElseThrow(() -> new TaskNotFoundException(id));

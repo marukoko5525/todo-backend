@@ -10,6 +10,9 @@ public interface TaskService {
     /** 全タスク取得 (completed=null で全件、true/false でフィルタ) */
     List<TaskResponse> findAll(Boolean completed);
 
+    /** キーワード検索 (タイトル・本文を部分一致, completedで併用フィルタ可) */
+    List<TaskResponse> search(String keyword, Boolean completed);
+
     /** 1件取得 */
     TaskResponse findById(Long id);
 
